@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Component } from 'react';
 
 function App() {
   return (
@@ -21,5 +22,12 @@ function App() {
     </div>
   );
 }
+
+// 这是一个Stateless funtional Component, 如果写成Stateful Class Component 是像下面这样
+// class App extends Component {
+//   render(){
+//     return ()
+//   }
+// }
 
 export default App;
