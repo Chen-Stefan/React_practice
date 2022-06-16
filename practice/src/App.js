@@ -5,12 +5,14 @@ import { Component } from 'react';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome'
 import Hello from './components/Hello';
+import Messaege from './components/Message';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-      <Greet name="Bruce" hero='batman'>
+        <Messaege />
+      {/* <Greet name="Bruce" hero='batman'>
         <p>This is children props</p>
       </Greet>
       <Greet name="Clark" hero='superman'>
@@ -19,7 +21,7 @@ class App extends Component {
       <Greet name="Diana" hero='wonderwoman'/>
       <Welcome name="Bruce" hero='batman' />
       <Welcome name="Clark" hero='superman' />
-      <Welcome name="Diana" hero='wonderwoman' />
+      <Welcome name="Diana" hero='wonderwoman' /> */}
     </div>
     );
   }
