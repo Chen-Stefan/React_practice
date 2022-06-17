@@ -12,18 +12,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Counter />
         {/* <Messaege /> */}
-      {/* <Greet name="Bruce" hero='batman'>
-        <p>This is children props</p>
-      </Greet>
-      <Greet name="Clark" hero='superman'>
+        {/* <Greet name="Bruce" hero='batman' /> */}
+      {/* /* <Greet name="Clark" hero='superman'>
         <button>Button</button>
       </Greet>
-      <Greet name="Diana" hero='wonderwoman'/>
+      <Greet name="Diana" hero='wonderwoman'/> */}
       <Welcome name="Bruce" hero='batman' />
       <Welcome name="Clark" hero='superman' />
-      <Welcome name="Diana" hero='wonderwoman' /> */}
+      <Welcome name="Diana" hero='wonderwoman' />
     </div>
     );
   }
