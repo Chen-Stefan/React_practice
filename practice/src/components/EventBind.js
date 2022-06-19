@@ -22,7 +22,7 @@ class EventBind extends Component {
       message: 'Goodbye!'
     })
   }
-  
+   
   render() {
     return (
       <div>
