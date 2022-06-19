@@ -3,7 +3,8 @@ import React from "react";
 function ChildComponent(props) {
   return (
     <div>
-      <button onClick={props.greetHandler}>Greet Parent</button>
+      {/* Access the method using the props object */}
+      <button onClick={() => props.greetHandler('child')}>Greet Parent</button>
     </div>
   );
 }
