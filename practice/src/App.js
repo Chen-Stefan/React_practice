@@ -13,27 +13,13 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
+import Person from './components/Person';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <NameList />
-        {/* <UserGreeting /> */}
-        {/* <ParentComponent /> */}
-        
-        {/* <EventBind /> */}
-        {/* <FunctionClick />
-        <ClassClick /> */}
-        {/* <Messaege /> */}
-        {/* <Greet name="Bruce" hero='batman' /> */}
-      {/* /* <Greet name="Clark" hero='superman'>
-        <button>Button</button>
-      </Greet>
-      <Greet name="Diana" hero='wonderwoman'/> */}
-      {/* <Welcome name="Bruce" hero='batman' />
-      <Welcome name="Clark" hero='superman' />
-      <Welcome name="Diana" hero='wonderwoman' /> */}
     </div>
     );
   }
