@@ -14,12 +14,13 @@ import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Person from './components/Person';
+import Stylesheet from './components/Stylesheet';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <NameList />
+        <Stylesheet />
     </div>
     );
   }
