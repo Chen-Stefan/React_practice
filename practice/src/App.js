@@ -16,12 +16,13 @@ import NameList from './components/NameList';
 import Person from './components/Person';
 import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
+import Form from './components/Form';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Inline />
+        <Form />
     </div>
     );
   }
