@@ -17,12 +17,32 @@ import Person from './components/Person';
 import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
 import Form from './components/Form';
+import LifeCycleA from './components/LifeCycleA';
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+  
+    this.state = {
+       name: 'Stefan'
+    }
+    console.log('LifecycleA constructor')
+  }
+
+  static getDerivedStateFromProps(props, state) {
+    console.log('LifecycleA getDerivedStateFromProps')
+    return null
+  }
+
+  componentDidMount() {
+    console.log('Did mount')
+  }
+
   render() {
+    console.log('LifecycleA render')
     return (
       <div className="App">
-        <Form />
+        <LifeCycleA />
     </div>
     );
   }
